@@ -1,0 +1,19 @@
+{
+  "extends": "rallycoding",
+  "rules": {
+    "quotes": ["error"],
+    "no-underscore-dangle": [
+      "error",
+      { "allowAfterThis": true, "allow": ["_root"] }
+    ],
+    "max-len": [
+      2,
+      {
+        "code": 80,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ]
+  }
+}
